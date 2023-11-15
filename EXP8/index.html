@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="mainsection">
+        <div><h2>Registration Form</h2></div>
+        <div class="formsection">
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <span id="firstNameError" class="error"></span>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <span id="lastNameError" class="error"></span>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span id="emailError" class="error"></span>
+
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" name="userId">
+            <span id="userIdError" class="error"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="passwordError" class="error"></span>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <span id="confirmPasswordError" class="error"></span>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    </div>
+
+    <script>
+        function validateForm() {
+            var firstName = document.getElementById("firstName");
+            var lastName = document.getElementById("lastName");
+            var email = document.getElementById("email");
+            var userId = document.getElementById("userId");
+            var password = document.getElementById("password");
+            var confirmPassword = document.getElementById("confirmPassword");
+
+            var firstNameError = document.getElementById("firstNameError");
+            var lastNameError = document.getElementById("lastNameError");
+            var emailError = document.getElementById("emailError");
+            var userIdError = document.getElementById("userIdError");
+            var passwordError = document.getElementById("passwordError");
+            var confirmPasswordError = document.getElementById("confirmPasswordError");
+
+            var isValid = true;
+
+            if (firstName.value === "") {
+                firstNameError.innerText = "First name is required.";
+                isValid = false;
+            } else {
+                firstNameError.innerText = "";
+            }
+
+            if (lastName.value === "") {
+                lastNameError.innerText = "Last name is required.";
+                isValid = false;
+            } else {
+                lastNameError.innerText = "";
+            }
+
+            if (email.value === "" || !isValidEmail(email.value)) {
+                emailError.innerText = "Please enter a valid email address.";
+                isValid = false;
+            } else {
+                emailError.innerText = "";
+            }
+
+            if (userId.value === "") {
+                userIdError.innerText = "User ID is required.";
+                isValid = false;
+            } else {
+                userIdError.innerText = "";
+            }
+
+            if (password.value === "") {
+                passwordError.innerText = "Password is required.";
+                isValid = false;
+            } else {
+                passwordError.innerText = "";
+            }
+
+            if (confirmPassword.value === "" || confirmPassword.value !== password.value) {
+                confirmPasswordError.innerText = "Passwords do not match.";
+                isValid = false;
+            } else {
+                confirmPasswordError.innerText = "";
+            }
+
+            return isValid;
+        }
+
+        function isValidEmail(email) {
+            var emailRegex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+            return emailRegex.test(email);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #736565;
+    color: #fff;
+}
+
+.logo img {
+    padding-left: 30px;
+    width: 35px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 30px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh;
+    flex-direction: row;
+    background-color: #b9a9a9;
+}
+
+
+.profile img {
+    height: 600px;
+    border-radius: 50%;
+}
+
+.intro h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.intro h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.intro h4{
+    font-size: 50px;
+    margin: 0;
+} 
+
+.eduback{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+
