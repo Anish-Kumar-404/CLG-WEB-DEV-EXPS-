@@ -1,0 +1,36 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  studentInformation {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: beige;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  student {
+    display: block;
+    border: 2px solid #211d1d;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  id, name, course, contact, phone {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  first, last, email {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  

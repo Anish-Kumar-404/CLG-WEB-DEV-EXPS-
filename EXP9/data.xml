@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<studentInformation>
+  <student>
+    <id>01</id>
+    <name>
+      <first>Anish</first>
+      <last>Kumar</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>21btrcl012@jainuniversity.ac.in</email>
+      <phone>8709857096</phone>
+    </contact>
+  </student>
+  <student>
+    <id>02</id>
+    <name>
+      <first>Birat</first>
+      <last>Datta</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>21btrcl022@jainuniversity.ac.in</email>
+      <phone>8788976544</phone>
+    </contact>
+  </student>
+  <student>
+    <id>03</id>
+    <name>
+      <first>Derrick</first>
+      <last>T</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>derrick.t@gmail.com</email>
+      <phone>9876543210</phone>
+    </contact>
+  </student>
+  
+  <student>
+    <id>04</id>
+    <name>
+      <first>Brahmos</first>
+      <last>Ryan</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>brahmos.ryan@gmail.com</email>
+      <phone>8765432109</phone>
+    </contact>
+  </student>
+  
+  <student>
+    <id>05</id>
+    <name>
+      <first>Dileep</first>
+      <last>G</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>dillep.g@gmail.com</email>
+      <phone>7654321098</phone>
+    </contact>
+  </student>
+</studentInformation>
