@@ -7,6 +7,7 @@
     <name>
       <first>Anish</first>
       <last>Kumar</last>
+      <USN>21btrcl012</USN>
     </name>
     <course>Computer Science CSE AIML</course>
     <contact>
@@ -16,6 +17,19 @@
   </student>
   <student>
     <id>02</id>
+    <name>
+      <first>Dileep</first>
+      <last>G</last>
+    </name>
+    <course>Computer Science CSE AIML</course>
+    <contact>
+      <email>dileep.g@gmail.com</email>
+      <phone>7897654566</phone>
+    </contact>
+  </student>
+  <student>
+  
+    <id>03</id>
     <name>
       <first>Birat</first>
       <last>Datta</last>
@@ -27,7 +41,7 @@
     </contact>
   </student>
   <student>
-    <id>03</id>
+    <id>04</id>
     <name>
       <first>Derrick</first>
       <last>T</last>
@@ -40,7 +54,7 @@
   </student>
   
   <student>
-    <id>04</id>
+    <id>05</id>
     <name>
       <first>Brahmos</first>
       <last>Ryan</last>
@@ -52,16 +66,6 @@
     </contact>
   </student>
   
-  <student>
-    <id>05</id>
-    <name>
-      <first>Dileep</first>
-      <last>G</last>
-    </name>
-    <course>Computer Science CSE AIML</course>
-    <contact>
-      <email>dillep.g@gmail.com</email>
-      <phone>7654321098</phone>
-    </contact>
-  </student>
+  
+  
 </studentInformation>
