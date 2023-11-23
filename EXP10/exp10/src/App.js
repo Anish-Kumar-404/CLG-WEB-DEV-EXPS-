@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>JU Admission Form</h1>
+      <h1>FILL YOUR INFORMATION</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
           <label>

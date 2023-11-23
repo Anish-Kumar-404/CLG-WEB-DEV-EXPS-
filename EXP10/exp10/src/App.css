@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  color: #007bff;
+  color: #0d0c0c;
 }
 
 .form-container {
@@ -51,7 +51,7 @@ textarea {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #111112;
   color: #fff;
   padding: 10px;
   border: none;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #121314;
 }
 
 .response-container {
