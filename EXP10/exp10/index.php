@@ -51,7 +51,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if (file_put_contents($filename, $fileContent, FILE_APPEND) !== false) {
 
-        echo json_encode(['message' => 'Form data saved successfully']);
+        echo json_encode(['message' => 'Form saved successfully']);
     } else {
 
         http_response_code(500);
